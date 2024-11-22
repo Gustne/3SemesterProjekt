@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForumFeedback.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae6adc072646471c0cc0d5d0575d83c9a337039c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d13262ad233c6cc1f01b669dcb142abd9ce68a6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForumFeedback.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForumFeedback.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

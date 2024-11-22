@@ -1115,7 +1115,8 @@
       },
       "ForumFeedback.Application/1.0.0": {
         "dependencies": {
-          "ForumFeedback.Domain": "1.0.0"
+          "ForumFeedback.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         },
         "runtime": {
           "ForumFeedback.Application.dll": {
