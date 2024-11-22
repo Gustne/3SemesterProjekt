@@ -23,7 +23,7 @@ public class PostCommand : IPostCommand
         try
         {
             _unitOfWork.BeginTransaction();
-            var post = Post.Create(postDto.ActivityGuid, postDto.UserGuid, postDto.ProblemText, postDto.Suggestion);
+            var post = Post.Create(postDto.ActivityId, postDto.UserGuid, postDto.ProblemText, postDto.Suggestion);
 
             _repository.AddPost(post);
 
@@ -35,6 +35,8 @@ public class PostCommand : IPostCommand
             throw;
         }   
     }
+
+
 
     void IPostCommand.DeletePost(DeleteDto deleteDto)
     {
@@ -56,4 +58,61 @@ public class PostCommand : IPostCommand
             throw;
         }
     }
+
+    void IPostCommand.CreateVote(CreateVoteDto voteDto)
+    {
+        try
+        {
+            _unitOfWork.BeginTransaction();
+
+            var post = _repository.GetPost(voteDto.PostId);
+
+            post.CreateVote(voteDto.UserGuid, voteDto.IsVoteUp);
+
+            _unitOfWork.Commit();
+        }
+        catch (Exception e)
+        {
+            try
+            {
+                _unitOfWork.Rollback();
+            }
+            catch (Exception exception)
+            {
+                throw new Exception($"$rollback failed: {exception.Message}", e);
+            }
+
+            throw;
+        }
+    }
+
+
+    void IPostCommand.UpdateVote(UpdateVoteDto voteDto)
+    {
+        try
+        {
+            _unitOfWork.BeginTransaction();
+
+            var post = _repository.GetPost(voteDto.PostId);
+
+            var vote = post.UpdateVote(voteDto.UserGuid, voteDto.IsVoteUp);
+
+
+            _unitOfWork.Commit();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    void IPostCommand.DeleteVote(DeleteDto voteDto)
+    {
+        throw new NotImplementedException();
+    }
+
+
+
+
 }

@@ -12,11 +12,11 @@ public class PostQuery : IPostQuery
         _db = db;
     }
 
-    IEnumerable<PostDto> IPostQuery.GetPosts(Guid activityGuid)
+    IEnumerable<PostDto> IPostQuery.GetPosts(int activityId)
     {
         var result = _db.Posts
             .AsNoTracking()
-            .Where(p => p.ActivityGuid == activityGuid)
+            .Where(p => p.ActivityId == activityId)
             .Include(p => p.Votes)
             .Select(p => new PostDto
             {

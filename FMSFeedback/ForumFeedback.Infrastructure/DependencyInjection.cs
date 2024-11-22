@@ -1,5 +1,7 @@
 ﻿using ForumFeedback.Application;
 using ForumFeedback.Application.Helpers;
+using ForumFeedback.Application.Queries;
+using ForumFeedback.Infrastructure.Queries;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,6 +12,9 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructureDependency(this IServiceCollection services, IConfiguration configuration)
     {
+
+        services.AddScoped<IPostQuery, PostQuery>();
+
         services.AddScoped<IPostRepository, PostRepository>();
 
 

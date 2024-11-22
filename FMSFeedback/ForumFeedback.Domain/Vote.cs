@@ -24,4 +24,9 @@ public class Vote : DomainEntity
     {
         return new Vote(userGuid, isVoteUp);
     }
+
+    public void Update(bool isVoteUp)
+    {
+        IsVoteUp = isVoteUp;
+    }
 }

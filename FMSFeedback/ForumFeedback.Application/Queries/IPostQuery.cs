@@ -4,6 +4,6 @@ namespace ForumFeedback.Application.Queries;
 
 public interface IPostQuery
 {
-    IEnumerable<PostDto> GetPosts(Guid activityGuid);
+    IEnumerable<PostDto> GetPosts(int activityId);
     IEnumerable<PostDto> GetPostWithComments(int PostId);
 }
