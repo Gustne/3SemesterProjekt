@@ -29,12 +29,12 @@ app.UseHttpsRedirection();
 app.MapPost("/Post", (CreatePostDto post, IPostCommand command) => command.CreatePost(post));
 app.MapDelete("/Post", ([FromBody] DeleteDto post, IPostCommand command) => command.DeletePost(post));
 
-app.MapPost("/Comment", (CreateCommentDto comment, ICommentCommand command) => command.AddComment(comment));
+app.MapPost("/Comment", (CreateCommentDto comment, ICommentCommand command) => command.CreateComment(comment));
 app.MapPut("/Comment", (UpdateCommentDto comment, ICommentCommand command) => command.UpdateComment(comment));
 
-app.MapPost("/Vote", (CreateVoteDto vote, IVoteCommand command) => command.CreateVote(vote));
-app.MapPut("/Vote", (UpdateVoteDto vote, IVoteCommand command) => command.UpdateVote(vote));
-app.MapDelete("/Vote", ([FromBody] DeleteDto vote, IVoteCommand command) => command.DeleteVote(vote));
+app.MapPost("/Vote", (CreateVoteDto vote, IPostCommand command) => command.CreateVote(vote));
+app.MapPut("/Vote", (UpdateVoteDto vote, IPostCommand command) => command.UpdateVote(vote));
+app.MapDelete("/Vote", ([FromBody] DeleteVoteDto vote, IPostCommand command) => command.DeleteVote(vote));
 
 app.MapGet("/Posts", (int activityId, IPostQuery query) => query.GetPosts(activityId));
 app.MapGet("/Post", (int postId, IPostQuery query) => query.GetPostWithComments(postId));

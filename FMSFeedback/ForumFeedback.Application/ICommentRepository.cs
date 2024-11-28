@@ -4,7 +4,7 @@ namespace ForumFeedback.Application;
 
 public interface ICommentRepository
 {
-    public Comment GetComment(int it);
+    public Comment GetComment(int id);
     public void CreateComment(Comment comment);
-    public void UpdateComment(Comment comment);
+    public void UpdateComment(Comment comment, byte[] rowVersion);
 }

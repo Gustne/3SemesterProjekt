@@ -10,7 +10,7 @@ public class Post : DomainEntity
     public DateTime Time { get; protected set; }
     public string ProblemText { get; protected set; }
     public string Suggestion { get; protected set; }
-    public List<Vote> Votes { get; protected set; }
+    public List<Vote> Votes { get; protected set; } = new List<Vote>();
     public List<Comment> Comments { get; protected set; }
 
     protected Post()

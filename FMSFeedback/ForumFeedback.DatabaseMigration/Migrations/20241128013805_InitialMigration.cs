@@ -17,7 +17,7 @@ namespace ForumFeedback.DatabaseMigration.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ActivityGuid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    ActivityId = table.Column<int>(type: "int", nullable: false),
                     UserGuid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Time = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ProblemText = table.Column<string>(type: "nvarchar(max)", nullable: false),

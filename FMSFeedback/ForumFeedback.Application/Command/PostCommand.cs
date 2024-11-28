@@ -1,4 +1,5 @@
-﻿using ForumFeedback.Application.Command.CommandDto;
+﻿using System.Data;
+using ForumFeedback.Application.Command.CommandDto;
 using ForumFeedback.Application.Command.Interfaces;
 using ForumFeedback.Application.Helpers;
 using ForumFeedback.Domain;
@@ -93,7 +94,7 @@ public class PostCommand : IPostCommand
         {
             _unitOfWork.BeginTransaction();
 
-            var post = _repository.GetPost(voteDto.PostId);
+            var post = _repository.GetPostWithVotes(voteDto.PostId);
 
             var vote = post.UpdateVote(voteDto.UserGuid, voteDto.IsVoteUp);
 
@@ -107,9 +108,31 @@ public class PostCommand : IPostCommand
         }
     }
 
-    void IPostCommand.DeleteVote(DeleteDto voteDto)
+    void IPostCommand.DeleteVote(DeleteVoteDto voteDto)
     {
-        throw new NotImplementedException();
+        try
+        {
+            _unitOfWork.BeginTransaction();
+
+            var post = _repository.GetPost(voteDto.PostId);
+            if (post == null)
+            {
+                throw new KeyNotFoundException($"The post you are removing vote does not exist");
+            }
+
+            var vote = post.Votes.FirstOrDefault(v => v.UserGuid == voteDto.UserGuid);
+            //Only removes if there is a vote, if you call the function without having voted you end up in desired state
+            if (vote != null)
+            {
+                _repository.DeleteVote(vote, voteDto.RowVersion);
+            }
+            
+        }
+        catch (Exception e)
+        {
+            _unitOfWork.Rollback();
+            throw;
+        }
     }
 
 

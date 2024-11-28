@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ForumFeedback.DatabaseMigration.Migrations
 {
     [DbContext(typeof(ForumFeedbackContext))]
-    [Migration("20241121035421_InitialMigration")]
+    [Migration("20241128013805_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -94,8 +94,8 @@ namespace ForumFeedback.DatabaseMigration.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<Guid>("ActivityGuid")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("ActivityId")
+                        .HasColumnType("int");
 
                     b.Property<string>("ProblemText")
                         .IsRequired()

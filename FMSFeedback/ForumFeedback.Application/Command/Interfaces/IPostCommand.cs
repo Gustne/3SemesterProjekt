@@ -9,5 +9,5 @@ public interface IPostCommand
     void DeletePost(DeleteDto deleteDto);
     void CreateVote(CreateVoteDto voteDto);
     void UpdateVote(UpdateVoteDto voteDto);
-    void DeleteVote(DeleteDto  voteDto);
+    void DeleteVote(DeleteVoteDto voteDto);
 }

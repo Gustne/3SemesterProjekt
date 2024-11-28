@@ -28,7 +28,8 @@ public class PostQuery : IPostQuery
                 Votes = p.Votes.Select(v => new VoteDto()
                 {
                     UserGuid = v.UserGuid,
-                    isVoteUp = v.IsVoteUp
+                    IsVoteUp = v.IsVoteUp,
+                    RowVersion = v.RowVersion
 
                 }).ToList()
 
@@ -55,7 +56,8 @@ public class PostQuery : IPostQuery
                 Votes = p.Votes.Select(v => new VoteDto
                 {
                     UserGuid = v.UserGuid,
-                    isVoteUp = v.IsVoteUp
+                    IsVoteUp = v.IsVoteUp,
+                    RowVersion = v.RowVersion,
 
                 }).ToList(),
                    
@@ -64,6 +66,7 @@ public class PostQuery : IPostQuery
                 {
                     UserGuid = c.UserGuid,
                     Time = c.Time,
+                    rowVersion = c.RowVersion,
                     Text = c.CommentTexts.Select(t => new CommentTextDto
                     {
                         Text = t.Text,

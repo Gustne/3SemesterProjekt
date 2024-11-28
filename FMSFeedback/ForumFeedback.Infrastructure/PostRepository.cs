@@ -1,5 +1,6 @@
 ﻿using ForumFeedback.Application;
 using ForumFeedback.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace ForumFeedback.Infrastructure;
 
@@ -10,6 +11,11 @@ public class PostRepository : IPostRepository
     public PostRepository(ForumFeedbackContext context)
     {
         _db = context;
+    }
+
+    Post IPostRepository.GetPost(int id)
+    {
+        return _db.Posts.Single(p => p.Id == id);
     }
 
     void IPostRepository.AddPost(Post post)
@@ -23,8 +29,15 @@ public class PostRepository : IPostRepository
         _db.Posts.Remove(post);
     }
 
-    Post IPostRepository.GetPost(int id)
+
+    void IPostRepository.DeleteVote(Vote vote, byte[] rowVersion)
     {
-        return _db.Posts.Single(p => p.Id == id);
+        _db.Entry(vote).Property(nameof(vote.RowVersion)).OriginalValue = rowVersion;
+        _db.Votes.Remove(vote);
+    }
+
+    Post IPostRepository.GetPostWithVotes(int id)
+    {
+        return _db.Posts.Include(p => p.Votes).Single(p => p.Id == id);
     }
 }

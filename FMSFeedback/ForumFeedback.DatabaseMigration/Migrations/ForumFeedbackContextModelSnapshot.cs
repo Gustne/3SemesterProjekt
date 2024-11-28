@@ -91,8 +91,8 @@ namespace ForumFeedback.DatabaseMigration.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<Guid>("ActivityGuid")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("ActivityId")
+                        .HasColumnType("int");
 
                     b.Property<string>("ProblemText")
                         .IsRequired()

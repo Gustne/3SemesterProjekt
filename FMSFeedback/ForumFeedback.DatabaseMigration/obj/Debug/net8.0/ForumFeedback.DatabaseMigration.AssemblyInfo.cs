@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForumFeedback.DatabaseMigration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d13262ad233c6cc1f01b669dcb142abd9ce68a6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf3764a46ca849aa6d1c4517f31df22785ffd8f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForumFeedback.DatabaseMigration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForumFeedback.DatabaseMigration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
