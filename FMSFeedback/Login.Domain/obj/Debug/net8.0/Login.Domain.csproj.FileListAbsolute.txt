@@ -1,0 +1,12 @@
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\bin\Debug\net8.0\Login.Domain.deps.json
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\bin\Debug\net8.0\Login.Domain.dll
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\bin\Debug\net8.0\Login.Domain.pdb
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\Login.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\Login.Domain.AssemblyInfoInputs.cache
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\Login.Domain.AssemblyInfo.cs
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\Login.Domain.csproj.CoreCompileInputs.cache
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\Login.Domain.sourcelink.json
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\Login.Domain.dll
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\refint\Login.Domain.dll
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\Login.Domain.pdb
+C:\Datamatiker\3SemesterProjekt\FMSFeedback\Login.Domain\obj\Debug\net8.0\ref\Login.Domain.dll
