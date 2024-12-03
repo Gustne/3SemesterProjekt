@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\queries\\dto\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\queries\\dto\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92CB476D-C6FB-DAEC-708E-A033FA658218}|Login.Api\\Login.Api.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92CB476D-C6FB-DAEC-708E-A033FA658218}|Login.Api\\Login.Api.csproj|solutionrelative:login.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\helpers\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\helpers\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\queries\\ipersonquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\queries\\ipersonquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.infrastructure\\queries\\activityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|solutionrelative:login.infrastructure\\queries\\activityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\queries\\iactivityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\queries\\iactivityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.infrastructure\\queries\\personquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|solutionrelative:login.infrastructure\\queries\\personquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|solutionrelative:login.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\queries\\dto\\termdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\queries\\dto\\termdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\queries\\dto\\activitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\queries\\dto\\activitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.domain\\entity\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\entity\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.domain\\entity\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\entity\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|solutionrelative:login.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\queries\\dto\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\queries\\dto\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.domain\\entity\\term.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\entity\\term.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\helpers\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\helpers\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.infrastructure\\logincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +63,8 @@
       "RelativeMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\entity\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.domain\\entity\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\entity\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.domain\\entity\\term.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF6BDDB-5BD0-15E2-3989-ED56FA866F8B}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\entity\\term.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF8C1350-4E1D-3E38-756B-E6932209F9BC}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92CB476D-C6FB-DAEC-708E-A033FA658218}|Login.Api\\Login.Api.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92CB476D-C6FB-DAEC-708E-A033FA658218}|Login.Api\\Login.Api.csproj|solutionrelative:login.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA3ADBF-60D8-4460-F026-5C258D29F79E}|Login.Infrastructure\\Login.Infrastructure.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\login.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,76 +94,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ActivityQuery.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\Queries\\ActivityQuery.cs",
+              "RelativeDocumentMoniker": "Login.Infrastructure\\Queries\\ActivityQuery.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\Queries\\ActivityQuery.cs",
+              "RelativeToolTip": "Login.Infrastructure\\Queries\\ActivityQuery.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:03:59.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IActivityQuery.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\IActivityQuery.cs",
+              "RelativeDocumentMoniker": "Login.Application\\Queries\\IActivityQuery.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\IActivityQuery.cs",
+              "RelativeToolTip": "Login.Application\\Queries\\IActivityQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:01:40.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActivityDto.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\Dto\\ActivityDto.cs",
+              "RelativeDocumentMoniker": "Login.Application\\Queries\\Dto\\ActivityDto.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\Dto\\ActivityDto.cs",
+              "RelativeToolTip": "Login.Application\\Queries\\Dto\\ActivityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:00:07.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TermDto.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\Dto\\TermDto.cs",
+              "RelativeDocumentMoniker": "Login.Application\\Queries\\Dto\\TermDto.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\Dto\\TermDto.cs",
+              "RelativeToolTip": "Login.Application\\Queries\\Dto\\TermDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T00:50:48.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonQuery.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\Queries\\PersonQuery.cs",
+              "RelativeDocumentMoniker": "Login.Infrastructure\\Queries\\PersonQuery.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\Queries\\PersonQuery.cs",
+              "RelativeToolTip": "Login.Infrastructure\\Queries\\PersonQuery.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T00:30:02.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPersonQuery.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\IPersonQuery.cs",
+              "RelativeDocumentMoniker": "Login.Application\\Queries\\IPersonQuery.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\IPersonQuery.cs",
+              "RelativeToolTip": "Login.Application\\Queries\\IPersonQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T00:28:00.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PersonDto.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\Dto\\PersonDto.cs",
               "RelativeDocumentMoniker": "Login.Application\\Queries\\Dto\\PersonDto.cs",
               "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Queries\\Dto\\PersonDto.cs",
               "RelativeToolTip": "Login.Application\\Queries\\Dto\\PersonDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T06:06:04.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Login.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "Login.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:39:28.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Login.Infrastructure\\UnitOfWork.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\UnitOfWork.cs",
-              "RelativeToolTip": "Login.Infrastructure\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:37:44.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Helpers\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Login.Application\\Helpers\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Helpers\\IUnitOfWork.cs",
-              "RelativeToolTip": "Login.Application\\Helpers\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:37:16.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Login.Infrastructure\\DependencyInjection.cs",
               "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\DependencyInjection.cs",
               "RelativeToolTip": "Login.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T05:30:47.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Login.Api\\appsettings.json",
@@ -147,83 +210,30 @@
               "RelativeToolTip": "Login.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-28T05:30:02.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T05:30:02.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Api\\Program.cs",
               "RelativeDocumentMoniker": "Login.Api\\Program.cs",
               "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Api\\Program.cs",
               "RelativeToolTip": "Login.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T05:29:11.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Term.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Term.cs",
-              "RelativeDocumentMoniker": "Login.Domain\\Entity\\Term.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Term.cs",
-              "RelativeToolTip": "Login.Domain\\Entity\\Term.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:20:08.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginContext.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\LoginContext.cs",
-              "RelativeDocumentMoniker": "Login.Infrastructure\\LoginContext.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\LoginContext.cs",
-              "RelativeToolTip": "Login.Infrastructure\\LoginContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:04:15.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Location.cs",
-              "RelativeDocumentMoniker": "Login.Domain\\Entity\\Location.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Location.cs",
-              "RelativeToolTip": "Login.Domain\\Entity\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:51:15.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Person.cs",
-              "RelativeDocumentMoniker": "Login.Domain\\Entity\\Person.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Person.cs",
-              "RelativeToolTip": "Login.Domain\\Entity\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:51:02.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Activity.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Activity.cs",
               "RelativeDocumentMoniker": "Login.Domain\\Entity\\Activity.cs",
               "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Activity.cs",
               "RelativeToolTip": "Login.Domain\\Entity\\Activity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T04:49:07.58Z",
               "EditorCaption": ""
@@ -231,19 +241,91 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Login.DatabaseMigration",
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Helpers\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Login.Application\\Helpers\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\Helpers\\IUnitOfWork.cs",
+              "RelativeToolTip": "Login.Application\\Helpers\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:37:16.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Term.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Term.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Entity\\Term.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Term.cs",
+              "RelativeToolTip": "Login.Domain\\Entity\\Term.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:20:08.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginContext.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\LoginContext.cs",
+              "RelativeDocumentMoniker": "Login.Infrastructure\\LoginContext.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\LoginContext.cs",
+              "RelativeToolTip": "Login.Infrastructure\\LoginContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:04:15.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Login.Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "Login.Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:37:44.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Login.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Login.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:39:28.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Location.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Entity\\Location.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Location.cs",
+              "RelativeToolTip": "Login.Domain\\Entity\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:51:15.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.DatabaseMigration.csproj",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.DatabaseMigration\\Login.DatabaseMigration.csproj",
               "RelativeDocumentMoniker": "Login.DatabaseMigration\\Login.DatabaseMigration.csproj",
               "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.DatabaseMigration\\Login.DatabaseMigration.csproj",
               "RelativeToolTip": "Login.DatabaseMigration\\Login.DatabaseMigration.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-28T05:30:18.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T05:30:18.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "DomainEntity.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\DomainEntity.cs",
               "RelativeDocumentMoniker": "Login.Domain\\Entity\\DomainEntity.cs",
@@ -251,20 +333,52 @@
               "RelativeToolTip": "Login.Domain\\Entity\\DomainEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:11:17.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T05:11:17.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Login.Domain",
+              "DocumentIndex": 20,
+              "Title": "Login.Domain.csproj",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Login.Domain.csproj",
               "RelativeDocumentMoniker": "Login.Domain\\Login.Domain.csproj",
               "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Login.Domain.csproj",
               "RelativeToolTip": "Login.Domain\\Login.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-28T04:57:37.167Z",
+              "WhenOpened": "2024-11-28T04:57:37.167Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "d9d9ca74-58c8-4303-9169-950717e9cf2f",
+        "Display": 1,
+        "X": 178,
+        "Y": 193,
+        "Width": 1578,
+        "Height": 738,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Person.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Entity\\Person.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\Login.Domain\\Entity\\Person.cs",
+              "RelativeToolTip": "Login.Domain\\Entity\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:51:02.712Z",
               "EditorCaption": ""
             }
           ]
