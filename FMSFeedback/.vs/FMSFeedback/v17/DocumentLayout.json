@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21D57199-9A0C-ACF9-0B46-19FDD64A396D}|ForumFeedback.Infrastructure\\ForumFeedback.Infrastructure.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\forumfeedback.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D57199-9A0C-ACF9-0B46-19FDD64A396D}|ForumFeedback.Infrastructure\\ForumFeedback.Infrastructure.csproj|solutionrelative:forumfeedback.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F7C0FA7-80B7-48A7-E84C-EADD55D82901}|ForumFeedback.Application\\ForumFeedback.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\forumfeedback.application\\command\\postcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F7C0FA7-80B7-48A7-E84C-EADD55D82901}|ForumFeedback.Application\\ForumFeedback.Application.csproj|solutionrelative:forumfeedback.application\\command\\postcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{5F7C0FA7-80B7-48A7-E84C-EADD55D82901}|ForumFeedback.Application\\ForumFeedback.Application.csproj|solutionrelative:forumfeedback.application\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21D57199-9A0C-ACF9-0B46-19FDD64A396D}|ForumFeedback.Infrastructure\\ForumFeedback.Infrastructure.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\forumfeedback.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21D57199-9A0C-ACF9-0B46-19FDD64A396D}|ForumFeedback.Infrastructure\\ForumFeedback.Infrastructure.csproj|solutionrelative:forumfeedback.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F7C0FA7-80B7-48A7-E84C-EADD55D82901}|ForumFeedback.Application\\ForumFeedback.Application.csproj|c:\\datamatiker\\3semesterprojekt\\fmsfeedback\\forumfeedback.application\\command\\commanddto\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F7C0FA7-80B7-48A7-E84C-EADD55D82901}|ForumFeedback.Application\\ForumFeedback.Application.csproj|solutionrelative:forumfeedback.application\\command\\commanddto\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -130,24 +130,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CommentCommand.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\CommentCommand.cs",
-              "RelativeDocumentMoniker": "ForumFeedback.Application\\Command\\CommentCommand.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\CommentCommand.cs",
-              "RelativeToolTip": "ForumFeedback.Application\\Command\\CommentCommand.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBwAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:18:12.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Infrastructure\\PostRepository.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Infrastructure\\PostRepository.cs",
@@ -155,8 +142,7 @@
               "RelativeToolTip": "ForumFeedback.Infrastructure\\PostRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAIwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T05:50:13.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:50:13.922Z"
             },
             {
               "$type": "Document",
@@ -168,12 +154,11 @@
               "RelativeToolTip": "ForumFeedback.Application\\Command\\CommandDto\\BaseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:22:55.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:22:55.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PostQuery.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Infrastructure\\Queries\\PostQuery.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Infrastructure\\Queries\\PostQuery.cs",
@@ -181,12 +166,11 @@
               "RelativeToolTip": "ForumFeedback.Infrastructure\\Queries\\PostQuery.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAawCMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T05:14:48.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:14:48.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Api\\Program.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Api\\Program.cs",
@@ -194,12 +178,11 @@
               "RelativeToolTip": "ForumFeedback.Api\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAlwCcAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T05:17:29.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:17:29.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Domain\\Post.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Domain\\Post.cs",
@@ -207,12 +190,11 @@
               "RelativeToolTip": "ForumFeedback.Domain\\Post.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAcwCgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T05:25:39.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:25:39.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IPostCommand.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\Interfaces\\IPostCommand.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Application\\Command\\Interfaces\\IPostCommand.cs",
@@ -220,12 +202,11 @@
               "RelativeToolTip": "ForumFeedback.Application\\Command\\Interfaces\\IPostCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T05:50:31.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:50:31.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ICommentCommand.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\Interfaces\\ICommentCommand.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Application\\Command\\Interfaces\\ICommentCommand.cs",
@@ -233,12 +214,11 @@
               "RelativeToolTip": "ForumFeedback.Application\\Command\\Interfaces\\ICommentCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:45:44.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:45:44.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PostCommand.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\PostCommand.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Application\\Command\\PostCommand.cs",
@@ -251,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IPostRepository.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\IPostRepository.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Application\\IPostRepository.cs",
@@ -259,12 +239,11 @@
               "RelativeToolTip": "ForumFeedback.Application\\IPostRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T05:28:22.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:28:22.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Domain\\Comment.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Domain\\Comment.cs",
@@ -272,90 +251,11 @@
               "RelativeToolTip": "ForumFeedback.Domain\\Comment.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAcwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:44:23.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:44:23.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UpdateCommentDto.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\CommandDto\\UpdateCommentDto.cs",
-              "RelativeDocumentMoniker": "ForumFeedback.Application\\Command\\CommandDto\\UpdateCommentDto.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\CommandDto\\UpdateCommentDto.cs",
-              "RelativeToolTip": "ForumFeedback.Application\\Command\\CommandDto\\UpdateCommentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T02:05:14.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VoteDto.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\VoteDto.cs",
-              "RelativeDocumentMoniker": "ForumFeedback.Application\\Queries\\QueriesDto\\VoteDto.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\VoteDto.cs",
-              "RelativeToolTip": "ForumFeedback.Application\\Queries\\QueriesDto\\VoteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T02:32:09.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PostDto.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\PostDto.cs",
-              "RelativeDocumentMoniker": "ForumFeedback.Application\\Queries\\QueriesDto\\PostDto.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\PostDto.cs",
-              "RelativeToolTip": "ForumFeedback.Application\\Queries\\QueriesDto\\PostDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T02:32:18.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CommentTextDto.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\CommentTextDto.cs",
-              "RelativeDocumentMoniker": "ForumFeedback.Application\\Queries\\QueriesDto\\CommentTextDto.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\CommentTextDto.cs",
-              "RelativeToolTip": "ForumFeedback.Application\\Queries\\QueriesDto\\CommentTextDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T02:32:26.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CommentDto.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\CommentDto.cs",
-              "RelativeDocumentMoniker": "ForumFeedback.Application\\Queries\\QueriesDto\\CommentDto.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\CommentDto.cs",
-              "RelativeToolTip": "ForumFeedback.Application\\Queries\\QueriesDto\\CommentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T02:32:29.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CommentRepository.cs",
-              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Infrastructure\\CommentRepository.cs",
-              "RelativeDocumentMoniker": "ForumFeedback.Infrastructure\\CommentRepository.cs",
-              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Infrastructure\\CommentRepository.cs",
-              "RelativeToolTip": "ForumFeedback.Infrastructure\\CommentRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T02:06:37.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Infrastructure\\DependencyInjection.cs",
@@ -368,7 +268,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommentCommand.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\CommentCommand.cs",
+              "RelativeDocumentMoniker": "ForumFeedback.Application\\Command\\CommentCommand.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\CommentCommand.cs",
+              "RelativeToolTip": "ForumFeedback.Application\\Command\\CommentCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:18:12.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateCommentDto.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\CommandDto\\UpdateCommentDto.cs",
+              "RelativeDocumentMoniker": "ForumFeedback.Application\\Command\\CommandDto\\UpdateCommentDto.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Command\\CommandDto\\UpdateCommentDto.cs",
+              "RelativeToolTip": "ForumFeedback.Application\\Command\\CommandDto\\UpdateCommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:05:14.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VoteDto.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\VoteDto.cs",
+              "RelativeDocumentMoniker": "ForumFeedback.Application\\Queries\\QueriesDto\\VoteDto.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\VoteDto.cs",
+              "RelativeToolTip": "ForumFeedback.Application\\Queries\\QueriesDto\\VoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:32:09.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostDto.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\PostDto.cs",
+              "RelativeDocumentMoniker": "ForumFeedback.Application\\Queries\\QueriesDto\\PostDto.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\PostDto.cs",
+              "RelativeToolTip": "ForumFeedback.Application\\Queries\\QueriesDto\\PostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:32:18.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommentTextDto.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\CommentTextDto.cs",
+              "RelativeDocumentMoniker": "ForumFeedback.Application\\Queries\\QueriesDto\\CommentTextDto.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\CommentTextDto.cs",
+              "RelativeToolTip": "ForumFeedback.Application\\Queries\\QueriesDto\\CommentTextDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:32:26.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\CommentDto.cs",
+              "RelativeDocumentMoniker": "ForumFeedback.Application\\Queries\\QueriesDto\\CommentDto.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\Queries\\QueriesDto\\CommentDto.cs",
+              "RelativeToolTip": "ForumFeedback.Application\\Queries\\QueriesDto\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:32:29.716Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Infrastructure\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "ForumFeedback.Infrastructure\\CommentRepository.cs",
+              "ToolTip": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Infrastructure\\CommentRepository.cs",
+              "RelativeToolTip": "ForumFeedback.Infrastructure\\CommentRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:06:37.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "C:\\Datamatiker\\3SemesterProjekt\\FMSFeedback\\ForumFeedback.Application\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "ForumFeedback.Application\\ICommentRepository.cs",
@@ -376,8 +360,7 @@
               "RelativeToolTip": "ForumFeedback.Application\\ICommentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T05:28:23.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:28:23.114Z"
             },
             {
               "$type": "Document",
@@ -389,8 +372,7 @@
               "RelativeToolTip": "ForumFeedback.Domain\\CommentText.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:44:35.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:44:35.903Z"
             },
             {
               "$type": "Document",
@@ -402,8 +384,7 @@
               "RelativeToolTip": "ForumFeedback.Application\\Command\\CommandDto\\CreateCommentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:44:50.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:44:50.47Z"
             },
             {
               "$type": "Document",
@@ -427,8 +408,7 @@
               "RelativeToolTip": "ForumFeedback.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-28T01:36:35.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:36:35.345Z"
             },
             {
               "$type": "Document",
@@ -452,8 +432,7 @@
               "RelativeToolTip": "ForumFeedback.Application\\Command\\CommandDto\\DeleteVoteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:22:46.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:22:46.452Z"
             },
             {
               "$type": "Document",
@@ -465,8 +444,7 @@
               "RelativeToolTip": "ForumFeedback.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:35:02.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:35:02.256Z"
             },
             {
               "$type": "Document",
