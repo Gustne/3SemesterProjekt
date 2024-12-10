@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Login.DatabaseMigration.Migrations
 {
     [DbContext(typeof(LoginContext))]
-    [Migration("20241128055941_InitialMigration")]
+    [Migration("20241210004907_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -47,6 +47,12 @@ namespace Login.DatabaseMigration.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("ExitSlipEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("FeedBackEnabled")
+                        .HasColumnType("bit");
 
                     b.Property<int>("LocationId")
                         .HasColumnType("int");
@@ -115,10 +121,6 @@ namespace Login.DatabaseMigration.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MiddleName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

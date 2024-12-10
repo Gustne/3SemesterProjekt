@@ -32,7 +32,6 @@ namespace Login.DatabaseMigration.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false, defaultValueSql: "NEWID()"),
                     RowVersion = table.Column<byte[]>(type: "rowversion", rowVersion: true, nullable: false),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MiddleName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsStaff = table.Column<bool>(type: "bit", nullable: false)
@@ -66,6 +65,8 @@ namespace Login.DatabaseMigration.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TermId = table.Column<int>(type: "int", nullable: false),
                     LocationId = table.Column<int>(type: "int", nullable: false),
+                    ExitSlipEnabled = table.Column<bool>(type: "bit", nullable: false),
+                    FeedBackEnabled = table.Column<bool>(type: "bit", nullable: false),
                     RowVersion = table.Column<byte[]>(type: "rowversion", rowVersion: true, nullable: false)
                 },
                 constraints: table =>
