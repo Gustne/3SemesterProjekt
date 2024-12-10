@@ -1,6 +1,16 @@
-version: '3.8'
 
 services:
+  reverse.proxy:
+    image: ${DOCKER_REGISTRY-}reverseproxy
+    build:
+      context: .
+      dockerfile: ReverseProxy/Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - forumfeedback.api
+      - login.api
+
   forumfeedback.api:
     image: ${DOCKER_REGISTRY-}forumfeedbackapi
     build:
@@ -36,9 +46,5 @@ services:
       - "1433:1433"  
 
 
-  reverseproxy:
-    image: ${DOCKER_REGISTRY-}reverseproxy
-    build:
-      context: .
-      dockerfile: ReverseProxy/Dockerfile
+
 

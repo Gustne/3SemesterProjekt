@@ -21,7 +21,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/login/v1/swagger.json", "Login");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Login");
         c.RoutePrefix = string.Empty;
     });
 }
