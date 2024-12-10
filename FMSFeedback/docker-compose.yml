@@ -35,3 +35,10 @@ services:
     ports:
       - "1433:1433"  
 
+
+  reverseproxy:
+    image: ${DOCKER_REGISTRY-}reverseproxy
+    build:
+      context: .
+      dockerfile: ReverseProxy/Dockerfile
+
