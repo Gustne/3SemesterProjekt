@@ -21,10 +21,13 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Forum");
+        c.RoutePrefix = string.Empty;
+    });
 }
 
-app.UseHttpsRedirection();
 
 app.MapPost("/Post", (CreatePostDto post, IPostCommand command) => command.CreatePost(post));
 app.MapDelete("/Post", ([FromBody] DeleteDto post, IPostCommand command) => command.DeletePost(post));

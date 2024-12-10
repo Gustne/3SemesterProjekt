@@ -19,10 +19,14 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/login/v1/swagger.json", "Login");
+        c.RoutePrefix = string.Empty;
+    });
 }
 
-app.UseHttpsRedirection();
+
 
 app.MapGet("/Activities/Exit", (Guid guid, IActivityQuery query) => query.GetExitActivities(guid));
 app.MapGet("/Activities/Forum", (Guid guid, IActivityQuery query) => query.GetForumActivities(guid));

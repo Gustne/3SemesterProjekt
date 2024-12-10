@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  forumfeedback.api:
+    image: ${DOCKER_REGISTRY-}forumfeedbackapi
+    build:
+      context: .
+      dockerfile: ForumFeedback.Api/Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=mssql;Database=ForumFeedbackDb;User=sa;Password=YourPassword123;
+    depends_on:
+      - mssql
+
+  login.api:
+    image: ${DOCKER_REGISTRY-}loginapi
+    build:
+      context: .
+      dockerfile: Login.Api/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=mssql;Database=LoginDb;User=sa;Password=YourPassword123;
+    depends_on:
+      - mssql
+
+  mssql:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    environment:
+      - SA_PASSWORD=YourPassword123
+      - ACCEPT_EULA=Y
+    ports:
+      - "1433:1433"  
+
