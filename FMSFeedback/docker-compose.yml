@@ -1,50 +1,59 @@
-
 services:
   reverse.proxy:
-    image: ${DOCKER_REGISTRY-}reverseproxy
     build:
       context: .
       dockerfile: ReverseProxy/Dockerfile
     ports:
-      - "80:80"
+      - "80:80" # Reverse proxy er eksponeret på værtsmaskinen
     depends_on:
       - forumfeedback.api
       - login.api
+      - exitslip
+      - mailservice
 
   forumfeedback.api:
-    image: ${DOCKER_REGISTRY-}forumfeedbackapi
     build:
       context: .
       dockerfile: ForumFeedback.Api/Dockerfile
-    ports:
-      - "8081:8080"
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Server=mssql;Database=ForumFeedbackDb;User=sa;Password=YourPassword123;
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ConnectionStrings__DefaultConnection=${ConnectionStrings__DefaultConnection}
     depends_on:
       - mssql
 
   login.api:
-    image: ${DOCKER_REGISTRY-}loginapi
     build:
       context: .
       dockerfile: Login.Api/Dockerfile
-    ports:
-      - "8080:8080"
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Server=mssql;Database=LoginDb;User=sa;Password=YourPassword123;
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ConnectionStrings__DefaultConnection=${ConnectionStrings__DefaultConnection}
+    depends_on:
+      - mssql
+
+  exitslip:
+    build:
+      context: .
+      dockerfile: ExitSlip/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ConnectionStrings__DefaultConnection=${ConnectionStrings__DefaultConnection}
+    depends_on:
+      - mssql
+
+  mailservice:
+    build:
+      context: .
+      dockerfile: mailService/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ConnectionStrings__DefaultConnection=${ConnectionStrings__DefaultConnection}
     depends_on:
       - mssql
 
   mssql:
     image: "mcr.microsoft.com/mssql/server:2019-latest"
     environment:
-      - SA_PASSWORD=YourPassword123
+      - SA_PASSWORD=${SA_PASSWORD}
       - ACCEPT_EULA=Y
-    ports:
-      - "1433:1433"  
-
-
-
 
