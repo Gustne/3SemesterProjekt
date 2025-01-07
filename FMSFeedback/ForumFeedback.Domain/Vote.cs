@@ -20,12 +20,12 @@ public class Vote : DomainEntity
     }
 
 
-    public static Vote Create(Guid userGuid, bool isVoteUp)
+    internal static Vote Create(Guid userGuid, bool isVoteUp)
     {
         return new Vote(userGuid, isVoteUp);
     }
 
-    public void Update(bool isVoteUp)
+    internal void Update(bool isVoteUp)
     {
         IsVoteUp = isVoteUp;
     }

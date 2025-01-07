@@ -31,15 +31,15 @@ services:
     depends_on:
       - mssql
 
-  exitslip:
-    build:
-      context: .
-      dockerfile: ExitSlip/Dockerfile
-    environment:
-      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
-      - ConnectionStrings__DefaultConnection=${ConnectionStrings__DefaultConnection}
-    depends_on:
-      - mssql
+#  exitslip:
+#    build:
+#      context: .
+#      dockerfile: ExitSlip/Dockerfile
+#    environment:
+#      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+#      - ConnectionStrings__DefaultConnection=${ConnectionStrings__DefaultConnection}
+#    depends_on:
+#      - mssql
 
   mailservice:
     build:
