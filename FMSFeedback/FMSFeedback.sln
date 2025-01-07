@@ -31,8 +31,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login.Domain.Test", "Login.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login.Infrastructure", "Login.Infrastructure\Login.Infrastructure.csproj", "{1BA3ADBF-60D8-4460-F026-5C258D29F79E}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A7ACA409-174B-4C2A-A084-27D77DEACA6F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReverseProxy", "ReverseProxy", "{40BC88C8-F6D0-4E81-892E-315496FC6AD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseProxy", "ReverseProxy\ReverseProxy.csproj", "{29503D77-165B-4405-BB15-5BC38821168A}"
@@ -105,10 +103,6 @@ Global
 		{1BA3ADBF-60D8-4460-F026-5C258D29F79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA3ADBF-60D8-4460-F026-5C258D29F79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA3ADBF-60D8-4460-F026-5C258D29F79E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7ACA409-174B-4C2A-A084-27D77DEACA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7ACA409-174B-4C2A-A084-27D77DEACA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7ACA409-174B-4C2A-A084-27D77DEACA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7ACA409-174B-4C2A-A084-27D77DEACA6F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29503D77-165B-4405-BB15-5BC38821168A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{29503D77-165B-4405-BB15-5BC38821168A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29503D77-165B-4405-BB15-5BC38821168A}.Release|Any CPU.ActiveCfg = Release|Any CPU

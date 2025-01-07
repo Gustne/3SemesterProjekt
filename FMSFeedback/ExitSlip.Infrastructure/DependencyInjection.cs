@@ -1,4 +1,7 @@
-﻿using ExitSlip.Application.Helpers;
+﻿using ExitSlip.Application;
+using ExitSlip.Application.Helpers;
+using ExitSlip.Application.Queries;
+using ExitSlip.Infrastructure.Queries;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,6 +12,10 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructureDependency(this IServiceCollection services, IConfiguration configuration)
     {
+        services.AddScoped<IExitQuery, ExitQuery>();
+
+        services.AddScoped<IExitRepository, ExitRepository>();
+        services.AddScoped<IQuestionRepository, QuestionRepository>();
 
         // Add-Migration InitialMigration -Context ExitSlipContext -Project ExitSLip.DatabaseMigration
         // Update-Database -Context ExitSlipContext -Project ExitSlip.DatabaseMigration

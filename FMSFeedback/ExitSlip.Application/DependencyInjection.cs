@@ -1,5 +1,5 @@
-﻿
-
+﻿using ExitSlip.Application.Command;
+using ExitSlip.Application.Command.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ExitSlip.Application;
@@ -8,6 +8,9 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddApplicationDependency(this IServiceCollection services)
     {
+        services.AddScoped<IExitCommand, ExitCommand>();
+        services.AddScoped<IQuestionCommand, QuestionCommand>();
+
         return services;
     }
 }
