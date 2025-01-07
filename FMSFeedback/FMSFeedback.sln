@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExitSlip.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExitSlip.DatabaseMigration", "ExitSlip.DatabaseMigration\ExitSlip.DatabaseMigration.csproj", "{7796758E-F8AF-4C0C-945B-04B20D37FB81}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{84C16A75-7289-4ADD-AB32-D7B69DCD6EFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,10 @@ Global
 		{7796758E-F8AF-4C0C-945B-04B20D37FB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7796758E-F8AF-4C0C-945B-04B20D37FB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7796758E-F8AF-4C0C-945B-04B20D37FB81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C16A75-7289-4ADD-AB32-D7B69DCD6EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C16A75-7289-4ADD-AB32-D7B69DCD6EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C16A75-7289-4ADD-AB32-D7B69DCD6EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C16A75-7289-4ADD-AB32-D7B69DCD6EFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

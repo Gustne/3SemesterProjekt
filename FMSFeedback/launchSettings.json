@@ -5,7 +5,9 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "forumfeedback.api": "StartDebugging",
-        "login.api": "StartDebugging"
+        "login.api": "StartDebugging",
+        "exitslip.api": "StartDebugging",
+        "reverseproxy": "StartDebugging"
       }
     }
   }

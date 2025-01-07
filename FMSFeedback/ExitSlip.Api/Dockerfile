@@ -12,23 +12,23 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["ForumFeedback.Api/ForumFeedback.Api.csproj", "ForumFeedback.Api/"]
-COPY ["ForumFeedback.Application/ForumFeedback.Application.csproj", "ForumFeedback.Application/"]
-COPY ["ForumFeedback.Domain/ForumFeedback.Domain.csproj", "ForumFeedback.Domain/"]
-COPY ["ForumFeedback.Infrastructure/ForumFeedback.Infrastructure.csproj", "ForumFeedback.Infrastructure/"]
-COPY ["ForumFeedback.DatabaseMigration/ForumFeedback.DatabaseMigration.csproj", "ForumFeedback.DatabaseMigration/"]
-RUN dotnet restore "./ForumFeedback.Api/ForumFeedback.Api.csproj"
+COPY ["ExitSlip.Api/ExitSlip.Api.csproj", "ExitSlip.Api/"]
+COPY ["ExitSlip.Application/ExitSlip.Application.csproj", "ExitSlip.Application/"]
+COPY ["ExitSlip.Domain/ExitSlip.Domain.csproj", "ExitSlip.Domain/"]
+COPY ["ExitSlip.Infrastructure/ExitSlip.Infrastructure.csproj", "ExitSlip.Infrastructure/"]
+COPY ["ExitSlip.DatabaseMigration/ExitSlip.DatabaseMigration.csproj", "ExitSlip.DatabaseMigration/"]
+RUN dotnet restore "./ExitSlip.Api/ExitSlip.Api.csproj"
 COPY . .
-WORKDIR "/src/ForumFeedback.Api"
-RUN dotnet build "./ForumFeedback.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/ExitSlip.Api"
+RUN dotnet build "./ExitSlip.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./ForumFeedback.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./ExitSlip.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ForumFeedback.Api.dll"]
+ENTRYPOINT ["dotnet", "ExitSlip.Api.dll"]
